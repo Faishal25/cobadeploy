@@ -16,3 +16,4 @@ python test.py
 Change your url if required and image path.
 # lat-deploy-ml-backend
 "# latihan-deploygcp" 
+"# latihan-deploygcp" 
