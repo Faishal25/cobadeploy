@@ -41,11 +41,6 @@ def main():
         Application is working
     """
 
-# About page with render template
-@app.route("/about")
-def postsPage():
-    return render_template("about.html")
-
 # Process images
 @app.route("/process", methods=["POST"])
 def processReq():
@@ -59,4 +54,4 @@ def processReq():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))

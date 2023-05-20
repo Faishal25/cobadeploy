@@ -1,6 +1,7 @@
-tensorflow==2.3.1
-keras==2.2.5
+tensorflow==2.12.0
+keras==2.12.0
 flask
 opencv-python
-flask
+Flask-Cors
 numpy
+gunicorn
